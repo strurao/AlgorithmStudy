@@ -25,7 +25,7 @@ int main()
     while(m--)
     {
         cin >> a >> b;
-        v[b].push_back(a);
+        v[b].push_back(a); // B를 해킹하면 A를 해킹할 수 있다
     }
     
     for(int i=1; i<=n; i++)
